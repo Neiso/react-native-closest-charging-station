@@ -1,16 +1,18 @@
 # react-native-closest-charging-station
 
 ## Scope
-Le but est de creer une application qui nous indique les stations de rechargement pour voiture electrique les plus proches de nous. 
+Le but est de creer une application qui nous indique les stations de rechargement pour voiture electrique les plus proches de nous. On utilisera l'open Brussels API 
+>https://bruxellesdata.opendatasoft.com/explore/dataset/bornes-de-recharge-pour-voitures-electriques/table/
 
 ## Obligations
-- Utiliser la librairie Axios pour les requetes API
+- Utiliser la librairie axios pour les requetes API
 - Utiliser la librairie expo-location pour recuperer la position du telephone
 
 ## Todo
 - Une liste des stations triees par distance par rapport au telephone. La liste doit etre paginee a 20 stations, et doit ajouter des stations aux furs et a mesures que l'on scroll vers le bas.
 - Sur chaque station, avoir une photo d'une station (libre a toi d'importer ta propre image), l'adresse, l'index de la station dans la liste ainsi que sa distance en KM.
 - Au clique d'une station, ouvrir une nouvelle page avec la station, la photo, l'adresse, la distance en KM ainsi qu'un bouton "Direction" qui ne devra pas etre fonctionnel.
+- Separer les 3 premieres stations des autres avec un titre "Recommendations"
 
 ## Environnement de dev:
 ### Installation:
@@ -31,4 +33,4 @@ yarn install
 yarn start //Scan the QR code with the Expo go app
 ```
 
-Enjoy!
+Enjoy!  
